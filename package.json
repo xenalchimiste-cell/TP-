@@ -1,0 +1,22 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "Application de Quiz Fullstack (Node.js Natif/SQLite/JS Vanilla)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "init-db": "node server/database.js"
+  },
+  "keywords": [
+    "quiz",
+    "education",
+    "node",
+    "sqlite",
+    "no-framework"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
